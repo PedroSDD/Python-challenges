@@ -2,10 +2,11 @@
 # Positions p1 and p2 are 1 based.
 
 def checkFirstBit(n, p1, p2):
-    if bin(n)[2] and bin(p1)[2] and bin(p2)[2] == '1':
-        print "True"
+    if bin(n)[p1] == bin(p2)[p2]:
+        print True
     else:
-        print "False"
+        print False
 
 
-checkFirstBit(1, 1, 1)
+#checkFirstBit(86, 2, 3)----->True
+#checkFirstBit(125,1,2)------>False
