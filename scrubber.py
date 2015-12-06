@@ -3,7 +3,7 @@
 
 def scrubber(sentence, letters):
 
-    new_sentence = list(sentence
+    new_sentence = list(sentence)
 
     for letter in letters:
         for i, char in enumerate(sentence):
