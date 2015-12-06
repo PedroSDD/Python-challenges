@@ -11,4 +11,3 @@ def scrubber(sentence, letters):
                 new_sentence[i]=""
     print ''.join(new_sentence)
 
-scrubber("hello world", "def")
