@@ -6,5 +6,3 @@ def fileReader(path):
             line = line.strip()
             list_int = map(int,line)
             print reduce(lambda x,y: x + y,list_int)
-
-fileReader("/Users/Dias/Desktop/test.txt")
