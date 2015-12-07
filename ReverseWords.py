@@ -10,3 +10,7 @@ def reverseSentence(path):
             print " ".join(new_sentence[::-1])
 
 reverseSentence("/Users/Dias/Desktop/teste.txt")
+
+
+
+
