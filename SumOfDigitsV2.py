@@ -1,5 +1,11 @@
 #INPUT SAMPLE: The first argument will be a path to a filename containing positive integers, one per line.
 
+def fileReader(path):
+    with open(path) as file:
+        for line in file:
+            sumDigits(line)
+
+
 
 def SumOfDigits(path):
     with open(path) as file:
